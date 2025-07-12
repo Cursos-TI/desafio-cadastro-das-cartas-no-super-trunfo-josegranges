@@ -1,0 +1,42 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int populacao;
+    
+    printf("Qual a população deste país?: ");
+    scanf("%d", &populacao);
+    
+    printf("\nA população é de %d habitantes. \n\n");
+    
+
+
+
+    int area;
+    
+    
+    printf("Qual a área total deste país? ");
+    scanf("%d", &area);
+    
+    printf("\nA área total de seu país é: %d\n\n");
+
+
+
+    
+  int pontosturisticos;
+  
+
+
+    printf("Quantos pontos turisticos internacionalmente conhecidos\nestão localizados em seu país? ");
+    scanf("%d", &pontosturisticos);
+    
+    printf ("\nEste país possui %d pontos turisticos");
+    
+
+
+
+    
+
+    return 0;
+}
